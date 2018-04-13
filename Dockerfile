@@ -1,4 +1,4 @@
-FROM jwigley/alpine-node-git-yarn
+FROM mhart/alpine-node:8
 
 ENV DOCKER_HOST tcp://docker:2375/
 ENV DOCKER_DRIVER overlay
