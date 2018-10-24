@@ -1,4 +1,4 @@
-FROM mhart/alpine-node:8
+FROM mhart/alpine-node:10
 
 ENV DOCKER_HOST tcp://docker:2375/
 ENV DOCKER_DRIVER overlay
